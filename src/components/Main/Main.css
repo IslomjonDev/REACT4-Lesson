@@ -80,3 +80,104 @@
         cursor: pointer;
     }
 }
+
+
+.postavki{
+    margin-top: 67px;
+    h1{
+        font-size: 48px;
+
+    }
+}
+.postavki-card{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 48px;
+    gap: 56px;
+    padding: 32px 96px;
+    box-shadow: 0px 4px 15px 0px #0000001F;
+    h3{
+        font-size: 20px;
+        border-bottom: 3px solid #FFCE50;
+        padding-bottom: 8px;
+        width: 270px;
+    }
+    p{
+        max-width: 568px;
+        opacity: .4;
+        line-height: 24px;
+    }
+}
+.postavki{
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sponsors{
+    margin-top: 120px;
+}
+.sponsors-cards{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 50px;
+    .sponsors-card{
+        max-width: 200px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-left: 1px solid #D7D7DD;
+        padding:0 20px;
+        p{
+            font-size: 14px;
+            opacity: .7;
+        }
+    }
+}
+.sponsors-card:first-child , .sponsors-card:nth-child(5){
+    border-left: none !important;
+}
+
+.company-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+.company{
+    margin-top: 150px;
+    h1{
+        font-size: 48px;
+        margin-bottom: 72px;
+    }
+}
+
+.company-card{
+    box-shadow: 0px 4px 15px 0px #00000026;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.company-left{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.company-right{
+    p{
+        border-bottom: 3px solid #FFCE50;
+        padding-bottom: 5px;
+    }
+    span{
+        display: flex;
+        gap: 20px;
+        margin-top: 30px;
+        align-items: center;
+    }
+}
+.zill{
+    margin-top: 150px;
+}

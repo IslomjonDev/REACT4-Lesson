@@ -1,3 +1,18 @@
 footer{
-    padding: 50px;
+    background-color: #0B7572;
+    
+}
+footer *{
+    color: #fff;
+ 
+}
+.foter{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }

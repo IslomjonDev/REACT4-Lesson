@@ -2,16 +2,16 @@ import React , {useState} from 'react'
 import './Footer.css'
 const data = [
     {
-      title: "Info",
-      links: ["Formats", "Pricing", "FAQ", "Status"]
+      title: '',
+      links: ["Каталог" ,"о компании", "Индивидуальная ", "Партнерам"]
     },
     {
-      title: "Getting started",
-      links: ["Home", "About", "Contact", "Help"]
+      title: [],
+      links: ["2D, 3D модели","Шоу-румы", "Дилерам", "Контакты", "Конфигуратор"]
     },
     {
-      title: "Resourses",
-      links: ["Formats", "Pricing", "FAQ", "Status", "Blog"]
+      title: "",
+      links: ["+38 (099)-638-45-37"]
     },
   ]
 function Footer() {
@@ -42,12 +42,12 @@ function Footer() {
     ))
   return (
     <footer>
-     <div>
+      <div className="container">
+     <div className='foter'>
+      <h1>LOGO</h1>
         {items}
      </div>
-     <p>{count}</p>
-     <button disabled = {count >= 10} onClick={handleIncrement}>Plus</button>
-     <button disabled = {count <= 0} onClick={handleDiscrement}>Minus</button>
+      </div>
     </footer>
   )
 }
